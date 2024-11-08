@@ -60,14 +60,10 @@ button {
     background-color: #2e2e2e;
     border: 2px dashed #66ff66; 
     display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 8px;
     position: relative;
-}
-
-.grid-cell {
-    border: 1px solid white;
-    width: 40px;
-    height: 40px;
 }
 
 footer {
