@@ -9,6 +9,9 @@ body {
     padding: 0;
 }
 
+
+
+
 header {
     margin-top: 20px;
     text-align: center;
@@ -24,6 +27,8 @@ h1 {
     color: #66ff66; 
 }
 
+
+
 #playButton {
     margin: 20px 0;
 }
@@ -38,6 +43,8 @@ button {
     cursor: pointer;
 }
 
+
+
 #arrowKeys {
     margin-top: 20px;
     padding: 15px;
@@ -48,6 +55,7 @@ button {
     max-width: 400px;
     border: 2px solid #ff4d4d; 
 }
+
 
 #playArea {
     margin-top: 20px;
@@ -69,6 +77,8 @@ footer {
     text-align: center;
     color: #888;
 }
+
+
 
 footer p {
     margin: 0;
