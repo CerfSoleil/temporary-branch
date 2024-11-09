@@ -46,10 +46,11 @@ function game() {
         placeFood();
     }
 
-    // This adds length to the snake body
+    // This ensures the tail follows the head, but does not manipulate the head.
     for (let i = snakeBody.length - 1; i > 0; i--) {
         snakeBody[i] = snakeBody[i - 1];
     }
+    //this sets the 'head' as the definitive position of the snake.
     if (snakeBody.length) {
         snakeBody[0] = [snakeX, snakeY];
     }
